@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <fragment
+        android:id="@+id/msg_list"
+        android:name="com.example.andres.chatandroid.chat.MessagesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        tools:layout="@layout/chat_list_item_left_aligned" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" >
+
+        <Button
+            android:id="@+id/send_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Send" />
+
+        <EditText
+            android:id="@+id/msg_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/send_btn"
+            android:layout_toLeftOf="@+id/send_btn" >
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

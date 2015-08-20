@@ -1,0 +1,41 @@
+<resources>
+    <string name="chat">Chat</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_adicionar_grupo">AdicionarGrupo</string>
+    <string name="title_activity_content_layout">content_layout</string>
+    <string name="title_activity_drawer">drawer</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">Menu abierto</string>
+    <string name="closeDrawer">Menu cerrado</string>
+    <string name="title_activity_pruebadrawer">pruebadrawer</string>
+    <string name="title_activity_grupo">grupo</string>
+    <string name="title_activity_chack_list_grupos">chackListGrupos</string>
+
+
+    <string name="app_name">SCMECI</string>
+    <string name="scan">Scan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="planets_array">
+        <item>Postulante</item>
+        <item>Publicante</item>
+    </string-array>
+    <string name="title_activity_drawer__mensajes">Drawer_Mensajes</string>
+    <string name="title_activity_menu">menu</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="header">Header Normal</string>
+    <string name="header_compact">Header Compact</string>
+    <string name="header_compact_toolbar">Header Compact Below Toolbar</string>
+    <string name="title_activity_mensajes">mensajes</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_webviewecihub">webviewecihub</string>
+    <string name="title_activity_contactos">contactos</string>
+</resources>

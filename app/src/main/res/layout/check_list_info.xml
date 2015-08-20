@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="CheckBox"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="60dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:scaleType="fitStart"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/avatar" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="marquee"
+        android:textSize="11sp"
+        android:layout_below="@+id/checkBox1"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_alignEnd="@+id/checkBox1" />
+
+</RelativeLayout>

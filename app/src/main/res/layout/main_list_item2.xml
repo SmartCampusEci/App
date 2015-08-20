@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="30dip">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:gravity="center_vertical"
+        android:text="Hola"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/primary_light"/>
+
+</RelativeLayout>

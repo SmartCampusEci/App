@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+            android:layout_height="329dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreGrupo"
+        android:textAlignment="center"
+        android:hint="Nombre del grupo" />
+
+    <Button
+        android:id="@+id/crearGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Grupo" />
+
+
+</LinearLayout>
